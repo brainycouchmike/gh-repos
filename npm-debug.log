@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/opt/nvm/versions/node/v0.12.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'slimrb' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.5
+4 verbose install initial load of /home/nitrous/code/package.json
+5 warn package.json gh-repos@1.0.0 No repository field.
+6 warn package.json gh-repos@1.0.0 No license field.
+7 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/bower/package.json
+8 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/coffee-reactify/package.json
+9 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/dotenv/package.json
+10 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/envify/package.json
+11 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/flux/package.json
+12 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp/package.json
+13 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-browserify/package.json
+14 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-coffee/package.json
+15 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-concat/package.json
+16 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-connect/package.json
+17 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-image/package.json
+18 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-include/package.json
+19 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-minify-css/package.json
+20 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-plumber/package.json
+21 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-preprocess/package.json
+22 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-rename/package.json
+23 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-sass/package.json
+24 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-shopify-upload/package.json
+25 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-slim/package.json
+26 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-uglify/package.json
+27 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/gulp-util/package.json
+28 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/react/package.json
+29 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/shelljs/package.json
+30 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/validatorjs/package.json
+31 verbose installManyTop reading scoped package data from /home/nitrous/code/node_modules/yargs/package.json
+32 info package.json bower@1.4.1 No license field.
+33 info package.json flux@2.0.3 license should be a valid SPDX license expression
+34 info package.json gulp-coffee@2.3.1 No license field.
+35 info package.json gulp-rename@1.2.2 No license field.
+36 info package.json gulp-shopify-upload@1.0.12 No license field.
+37 info package.json gulp-slim@0.1.0 No license field.
+38 info package.json shelljs@0.5.1 license should be a valid SPDX license expression
+39 verbose readDependencies loading dependencies from /home/nitrous/code/package.json
+40 silly cache add args [ 'slimrb', null ]
+41 verbose cache add spec slimrb
+42 silly cache add parsed spec { raw: 'slimrb',
+42 silly cache add   scope: null,
+42 silly cache add   name: 'slimrb',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: '*',
+42 silly cache add   type: 'range' }
+43 silly addNamed slimrb@*
+44 verbose addNamed "*" is a valid semver range for slimrb
+45 silly addNameRange { name: 'slimrb', range: '*', hasData: false }
+46 silly mapToRegistry name slimrb
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/slimrb
+50 verbose addNameRange registry:https://registry.npmjs.org/slimrb not in flight; fetching
+51 verbose request uri https://registry.npmjs.org/slimrb
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 1:01:05 AM
+54 verbose request id 61b0b057003caed9
+55 http request GET https://registry.npmjs.org/slimrb
+56 http 404 https://registry.npmjs.org/slimrb
+57 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'cache-control': 'max-age=0',
+57 verbose headers   'content-length': '51',
+57 verbose headers   'accept-ranges': 'bytes',
+57 verbose headers   date: 'Thu, 16 Jul 2015 01:01:05 GMT',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   age: '0',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'x-served-by': 'cache-iad2136-IAD',
+57 verbose headers   'x-cache': 'MISS',
+57 verbose headers   'x-cache-hits': '0',
+57 verbose headers   'x-timer': 'S1437008465.609414,VS0,VE21' }
+58 silly get cb [ 404,
+58 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 silly get     'content-type': 'application/json',
+58 silly get     'cache-control': 'max-age=0',
+58 silly get     'content-length': '51',
+58 silly get     'accept-ranges': 'bytes',
+58 silly get     date: 'Thu, 16 Jul 2015 01:01:05 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     age: '0',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-iad2136-IAD',
+58 silly get     'x-cache': 'MISS',
+58 silly get     'x-cache-hits': '0',
+58 silly get     'x-timer': 'S1437008465.609414,VS0,VE21' } ]
+59 verbose stack Error: 404 Not Found: slimrb
+59 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/opt/nvm/versions/node/v0.12.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:245:14)
+59 verbose stack     at Request._callback (/usr/local/opt/nvm/versions/node/v0.12.5/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+59 verbose stack     at Request.self.callback (/usr/local/opt/nvm/versions/node/v0.12.5/lib/node_modules/npm/node_modules/request/request.js:354:22)
+59 verbose stack     at Request.emit (events.js:110:17)
+59 verbose stack     at Request.<anonymous> (/usr/local/opt/nvm/versions/node/v0.12.5/lib/node_modules/npm/node_modules/request/request.js:1207:14)
+59 verbose stack     at Request.emit (events.js:129:20)
+59 verbose stack     at IncomingMessage.<anonymous> (/usr/local/opt/nvm/versions/node/v0.12.5/lib/node_modules/npm/node_modules/request/request.js:1153:12)
+59 verbose stack     at IncomingMessage.emit (events.js:129:20)
+59 verbose stack     at _stream_readable.js:908:16
+59 verbose stack     at process._tickCallback (node.js:355:11)
+60 verbose statusCode 404
+61 verbose pkgid slimrb
+62 verbose cwd /home/nitrous/code
+63 error Linux 3.16.0-34-generic
+64 error argv "node" "/usr/local/opt/nvm/versions/node/v0.12.5/bin/npm" "install" "slimrb"
+65 error node v0.12.5
+66 error npm  v2.11.3
+67 error code E404
+68 error 404 Not Found: slimrb
+68 error 404
+68 error 404 'slimrb' is not in the npm registry.
+68 error 404 You should bug the author to publish it (or use the name yourself!)
+68 error 404 It was specified as a dependency of 'gh-repos'
+68 error 404
+68 error 404 Note that you can also install from a
+68 error 404 tarball, folder, http url, or git url.
+69 verbose exit [ 1, true ]
