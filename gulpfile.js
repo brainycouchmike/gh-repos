@@ -118,7 +118,7 @@ gulp.task('stylesheets', ['sass'], function(done) {
 });
 
 gulp.task('connect', ['watch'], function() {
-  connect.server({ host: '0.0.0.0', root: 'www', port: argv.port || '8080' });
+  connect.server({ host: process.env.HOST || "localhost", root: 'www', port: argv.port || '8080' });
 });
 
 gulp.task('watch', ['stylesheets', 'coffee', 'fonts', 'views'], function() {
